@@ -42,7 +42,7 @@ Players have access to 2 installation options: automatic (via the installer) and
 2. Unpack the archive to the root directory of the server.
 3. Add to the *server.cfg* server configuration file the line *"plugins sampvoice"* for *Win32* and *"plugins sampvoice.so"* for *Linux x86*. **(If you have a Pawn.RakNet plugin be sure to place SampVoice after it)**
 
-4. Now, in *server.cfg* put *sv_port port*(chose sv_port between 1k-65k) just below the line of your default **port**.
+4. Now, again in *server.cfg*, put **(sv_port port)** just below the line of your default **port**. [chose sv_port between 1k-65k]
 5. Now, goto your firewall access and add your chosen port in it, then just restart the firewall to apply settings (this varies in linux & windows, for linux:- `ufw allow *chosen_sv_port*`).
 
 ## Usage
