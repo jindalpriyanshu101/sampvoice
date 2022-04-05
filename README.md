@@ -42,6 +42,9 @@ Players have access to 2 installation options: automatic (via the installer) and
 2. Unpack the archive to the root directory of the server.
 3. Add to the *server.cfg* server configuration file the line *"plugins sampvoice"* for *Win32* and *"plugins sampvoice.so"* for *Linux x86*. **(If you have a Pawn.RakNet plugin be sure to place SampVoice after it)**
 
+4. Now, in *server.cfg* put *sv_port port*(chose sv_port between 1k-65k) just below the line of your default **port**.
+5. Now, goto your firewall access and add your chosen port in it, then just restart the firewall to apply settings (this varies in linux & windows, for linux:- `ufw allow *chosen_sv_port*`).
+
 ## Usage
 ---------------------------------
 To get started using the plugin, read the documentation that comes with the server side. To do this, open the *sampvoice.chm* file using the Windows reference. **(If the documentation does not open, right-click on the documentation file, then Properties -> Unblock -> OK)**
@@ -154,7 +157,7 @@ Below are further instructions:
 
 Clone the repository to your computer and go to the plugin directory:
 ```sh
-git clone https://github.com/CyberMor/sampvoice.git
+git clone https://github.com/jindalpriyanshu/sampvoice.git
 cd sampvoice
 ```
 
@@ -167,6 +170,6 @@ To compile the client side of the plugin, you need the *DirectX SDK*. By default
 ---------------------------------
 To build the server part of the plugin for the *Linux x86* platform, follow these instructions:
 ```sh
-cd server
+cd sampvoice/server
 make
 ```
