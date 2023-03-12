@@ -792,7 +792,8 @@ PLUGIN_EXPORT bool PLUGIN_CALL Load(void** const ppData) noexcept
     Logger::Log("                  |_|                           ");
     Logger::Log(" -------------------------------------------    ");
     Logger::Log("           SampVoice by MOR loaded              ");
-    Logger::Log("          Updated version by CyberEye           ");
+    Logger::Log("      Updated version by ElementiX Hosting      ");
+    Logger::Log("         Developer:- Priyanshu#6064             ");
     Logger::Log(" -------------------------------------------    ");
 
     return true;
