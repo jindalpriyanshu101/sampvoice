@@ -157,7 +157,7 @@ Below are further instructions:
 
 Clone the repository to your computer and go to the plugin directory:
 ```sh
-git clone https://github.com/jindalpriyanshu/sampvoice.git
+git clone https://github.com/jindalpriyanshu101/sampvoice.git
 cd sampvoice
 ```
 
